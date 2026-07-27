@@ -15,6 +15,8 @@ to a hosted AI API.
 
 </div>
 
+![On-Prem RAG Assistant answering an ISO 9001 question with local inference and source citations](docs/assets/product-demo.svg)
+
 > Public preview: the desktop and browser modes are intended for one trusted
 > user. Authentication and safe multi-user deployment are not implemented yet.
 

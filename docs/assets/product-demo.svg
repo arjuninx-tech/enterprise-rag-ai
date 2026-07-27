@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">On-Prem RAG Assistant product demo</title>
+  <desc id="desc">A sample ISO 9001 question answered locally with two source citations.</desc>
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101b1a"/>
+      <stop offset="1" stop-color="#090d0d"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10a37f" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#10a37f" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="22" stdDeviation="28" flood-color="#000" flood-opacity=".45"/>
+    </filter>
+    <style>
+      text { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .muted { fill: #8e9694; }
+      .small { font-size: 13px; }
+      .body { font-size: 16px; fill: #e8eeec; }
+      .label { font-size: 12px; font-weight: 600; letter-spacing: .08em; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="900" fill="url(#frame)"/>
+  <circle cx="1250" cy="30" r="420" fill="url(#glow)"/>
+  <circle cx="80" cy="860" r="360" fill="url(#glow)" opacity=".55"/>
+
+  <text x="720" y="55" text-anchor="middle" fill="#f2f7f5" font-size="24" font-weight="700">Private document answers. Local models. Verifiable citations.</text>
+  <text x="720" y="83" text-anchor="middle" fill="#8e9694" font-size="14">Sample workflow using the ISO 9001 documents included in this repository</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="112" width="1300" height="720" rx="18" fill="#212121" stroke="#39413f"/>
+    <path d="M88 112h1264a18 18 0 0 1 18 18v38H70v-38a18 18 0 0 1 18-18z" fill="#191b1b"/>
+    <circle cx="96" cy="140" r="6" fill="#ff5f57"/>
+    <circle cx="116" cy="140" r="6" fill="#febc2e"/>
+    <circle cx="136" cy="140" r="6" fill="#28c840"/>
+    <rect x="544" y="125" width="352" height="28" rx="8" fill="#242827"/>
+    <circle cx="564" cy="139" r="4" fill="#10a37f"/>
+    <text x="579" y="144" fill="#9da5a2" font-size="12">localhost:5000 · private session</text>
+
+    <!-- Sidebar -->
+    <rect x="70" y="168" width="255" height="664" fill="#171717"/>
+    <line x1="325" y1="168" x2="325" y2="832" stroke="#393d3c"/>
+    <circle cx="98" cy="202" r="13" fill="#10a37f"/>
+    <path d="M92 202h12M98 196v12" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+    <text x="120" y="208" fill="#f0f3f2" font-size="15" font-weight="650">On-Prem RAG</text>
+    <rect x="280" y="188" width="29" height="29" rx="7" fill="#2f2f2f"/>
+    <text x="294.5" y="209" text-anchor="middle" fill="#dfe5e3" font-size="20">+</text>
+
+    <rect x="86" y="230" width="223" height="34" rx="8" fill="#252827" stroke="#363b39"/>
+    <circle cx="101" cy="247" r="5" fill="none" stroke="#737b78" stroke-width="1.5"/>
+    <line x1="105" y1="251" x2="110" y2="256" stroke="#737b78" stroke-width="1.5"/>
+    <text x="119" y="252" class="small muted">Search conversations</text>
+
+    <text x="91" y="294" class="label muted">TODAY</text>
+    <rect x="82" y="307" width="231" height="42" rx="8" fill="#303332"/>
+    <rect x="82" y="307" width="3" height="42" rx="1.5" fill="#10a37f"/>
+    <text x="96" y="333" fill="#e4e9e7" font-size="13.5">ISO 9001 corrective action</text>
+    <text x="91" y="376" class="label muted">EARLIER</text>
+    <text x="96" y="410" fill="#a8afad" font-size="13.5">Document control requirements</text>
+    <text x="96" y="449" fill="#a8afad" font-size="13.5">Summarize quality manual</text>
+
+    <rect x="86" y="749" width="223" height="34" rx="8" fill="#152a24"/>
+    <circle cx="101" cy="766" r="4" fill="#10a37f"/>
+    <text x="113" y="771" fill="#49c9a7" font-size="12">Ollama running locally</text>
+    <rect x="86" y="789" width="106" height="30" rx="7" fill="#292c2b"/>
+    <rect x="202" y="789" width="107" height="30" rx="7" fill="#292c2b"/>
+    <text x="139" y="808" text-anchor="middle" class="small muted">Knowledge Base</text>
+    <text x="255" y="808" text-anchor="middle" class="small muted">Settings</text>
+
+    <!-- Header -->
+    <rect x="326" y="168" width="1044" height="66" fill="#212121"/>
+    <line x1="326" y1="234" x2="1370" y2="234" stroke="#393d3c"/>
+    <text x="362" y="207" fill="#f0f3f2" font-size="17" font-weight="650">ISO 9001 corrective action</text>
+    <rect x="1122" y="185" width="122" height="32" rx="8" fill="#292c2b" stroke="#3a403e"/>
+    <circle cx="1139" cy="201" r="4" fill="#10a37f"/>
+    <text x="1150" y="206" fill="#dbe1df" font-size="12">Qwen 2.5 7B</text>
+    <rect x="1254" y="185" width="90" height="32" rx="8" fill="#292c2b" stroke="#3a403e"/>
+    <text x="1299" y="206" text-anchor="middle" fill="#dbe1df" font-size="12">Default agent</text>
+
+    <!-- Conversation -->
+    <rect x="749" y="267" width="558" height="66" rx="16" fill="#303332"/>
+    <text x="774" y="294" fill="#f1f5f4" font-size="15">What must we do when a nonconformity occurs?</text>
+    <rect x="774" y="305" width="239" height="18" rx="5" fill="#242827"/>
+    <path d="M785 309h7l4 4v7h-11z" fill="none" stroke="#8b9592" stroke-width="1"/>
+    <text x="802" y="318" fill="#9da5a2" font-size="10.5">iso-9001-capa-procedure-sample.txt</text>
+    <circle cx="1330" cy="300" r="16" fill="#3d4441"/>
+    <path d="M1324 302c2-5 10-5 12 0M1326 294a4 4 0 1 0 8 0" fill="none" stroke="#d8dfdc" stroke-width="1.5" stroke-linecap="round"/>
+
+    <circle cx="377" cy="383" r="16" fill="#10a37f"/>
+    <text x="377" y="389" text-anchor="middle" fill="#fff" font-size="18">✦</text>
+    <text x="411" y="374" fill="#f1f5f4" font-size="16" font-weight="650">When a nonconformity occurs, the organization should:</text>
+
+    <circle cx="419" cy="416" r="11" fill="#173c32"/>
+    <text x="419" y="421" text-anchor="middle" fill="#48c7a5" font-size="11" font-weight="700">1</text>
+    <text x="441" y="421" class="body"><tspan font-weight="650">React and control it</tspan><tspan> — contain the issue and correct it where possible.</tspan></text>
+
+    <circle cx="419" cy="461" r="11" fill="#173c32"/>
+    <text x="419" y="466" text-anchor="middle" fill="#48c7a5" font-size="11" font-weight="700">2</text>
+    <text x="441" y="466" class="body"><tspan font-weight="650">Evaluate the root cause</tspan><tspan> — determine why it happened and whether</tspan></text>
+    <text x="441" y="489" class="body">similar issues exist.</text>
+
+    <circle cx="419" cy="526" r="11" fill="#173c32"/>
+    <text x="419" y="531" text-anchor="middle" fill="#48c7a5" font-size="11" font-weight="700">3</text>
+    <text x="441" y="531" class="body"><tspan font-weight="650">Implement corrective action</tspan><tspan> proportional to the impact.</tspan></text>
+
+    <circle cx="419" cy="571" r="11" fill="#173c32"/>
+    <text x="419" y="576" text-anchor="middle" fill="#48c7a5" font-size="11" font-weight="700">4</text>
+    <text x="441" y="576" class="body"><tspan font-weight="650">Verify effectiveness</tspan><tspan> and update risks, procedures, or controls.</tspan></text>
+
+    <rect x="411" y="612" width="760" height="82" rx="12" fill="#18221f" stroke="#2c4941"/>
+    <text x="432" y="638" fill="#52cbaa" font-size="12" font-weight="650">2 CITATIONS</text>
+    <rect x="432" y="651" width="320" height="26" rx="7" fill="#22332e"/>
+    <text x="445" y="669" fill="#cbd5d1" font-size="11.5">CAPA Procedure · Section 5.2: Corrective Action</text>
+    <rect x="763" y="651" width="303" height="26" rx="7" fill="#22332e"/>
+    <text x="776" y="669" fill="#cbd5d1" font-size="11.5">Quality Manual · Section 10.2: Nonconformity</text>
+
+    <text x="411" y="720" class="small muted">qwen2.5:7b  ·  2.8s  ·  116 tokens  ·  41.4 tok/s</text>
+
+    <!-- Composer -->
+    <rect x="363" y="754" width="970" height="58" rx="15" fill="#2b2e2d" stroke="#424846"/>
+    <text x="391" y="789" fill="#858e8b" font-size="14">Ask a follow-up about your documents…</text>
+    <rect x="1284" y="768" width="31" height="31" rx="9" fill="#10a37f"/>
+    <path d="M1299.5 790v-12m0 0-5 5m5-5 5 5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="720" y="870" text-anchor="middle" fill="#76817d" font-size="12">Illustrative capture · Answers and source labels are based on the included sample documents</text>
+</svg>
