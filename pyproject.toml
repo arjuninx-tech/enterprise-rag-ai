@@ -28,7 +28,7 @@ Issues = "https://github.com/arjuninx-tech/enterprise-rag-ai/issues"
 
 [project.optional-dependencies]
 dev = [
-    "pytest>=8,<9",
+    "pytest>=8,<10",
     "ruff>=0.9,<1",
 ]
 
