@@ -1,0 +1,52 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.p8
+*.pfx
+secrets.json
+secrets.yaml
+secrets.yml
+
+# Private and generated application data
+data/documents/
+data/vector_db/
+data/metadata/
+data/*.db
+data/*.pdf
+data/*.docx
+data/*.txt
+data/*.xlsx
+logs/
+*.log
+*.db
+*.sqlite3
+
+# Python environments, caches, and packages
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build outputs
+build/
+dist/
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

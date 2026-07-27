@@ -1,0 +1,256 @@
+QUALITY MANUAL
+Acme Manufacturing Ltd.
+Document Number: QM-001
+Revision: 3
+Effective Date: 01 March 2025
+Standard: ISO 9001:2015
+Status: Approved
+Approved by: Head of Quality
+
+
+═══════════════════════════════════════════════════════════════
+SECTION 1 — SCOPE AND PURPOSE
+═══════════════════════════════════════════════════════════════
+
+1.1 Purpose
+This Quality Manual describes the Quality Management System (QMS) of Acme Manufacturing Ltd. It defines the policies, responsibilities, and processes that ensure consistent product quality and continual improvement in accordance with ISO 9001:2015.
+
+1.2 Scope
+This QMS applies to all operations at the Acme Manufacturing Ltd. facility including design, procurement, manufacturing, testing, and dispatch of industrial components. The manual applies to all employees, contractors, and subcontractors operating within the defined scope.
+
+1.3 Exclusions
+Clause 8.3 (Design and Development) is excluded for product lines that are manufactured to customer-supplied specifications only, where Acme performs no original design activity.
+
+
+═══════════════════════════════════════════════════════════════
+SECTION 2 — NORMATIVE REFERENCES
+═══════════════════════════════════════════════════════════════
+
+This manual references the following standards and documents:
+- ISO 9001:2015 Quality Management Systems — Requirements
+- ISO 9000:2015 Quality Management Systems — Fundamentals and Vocabulary
+- Customer-specific quality requirements (as supplied per contract)
+- Internal procedure documents QP-001 through QP-022
+
+
+═══════════════════════════════════════════════════════════════
+SECTION 3 — TERMS AND DEFINITIONS
+═══════════════════════════════════════════════════════════════
+
+Nonconformance (NC): Any product, service, or process that does not meet specified requirements.
+
+Corrective Action (CA): Action taken to eliminate the cause of a detected nonconformance to prevent recurrence.
+
+Preventive Action (PA): Action taken to eliminate the cause of a potential nonconformance before it occurs.
+
+Customer Complaint: Any formal or informal communication from a customer expressing dissatisfaction with a product or service.
+
+Management Review: A formal meeting held by top management to assess the suitability, adequacy, and effectiveness of the QMS.
+
+Interested Party: Any person or organisation that can affect, be affected by, or perceive itself to be affected by the company's decisions or activities.
+
+
+═══════════════════════════════════════════════════════════════
+SECTION 4 — CONTEXT OF THE ORGANISATION
+═══════════════════════════════════════════════════════════════
+
+4.1 Understanding the Organisation and Its Context
+Acme Manufacturing Ltd. conducts regular reviews to understand external and internal issues relevant to its purpose. These include:
+
+External issues: regulatory changes, market conditions, technology developments, customer expectations, and competitive landscape.
+
+Internal issues: resource capacity, workforce skills, equipment reliability, and organisational culture.
+
+These issues are reviewed at least annually during Management Review meetings (reference: QP-018 Management Review Procedure).
+
+4.2 Understanding the Needs of Interested Parties
+Acme has identified the following interested parties and their relevant requirements:
+- Customers: on-time delivery, product conformance, competitive pricing, transparent communication.
+- Regulatory bodies: compliance with applicable product safety and environmental legislation.
+- Employees: safe working conditions, fair remuneration, professional development.
+- Suppliers: clear purchase orders, timely payment, long-term relationship stability.
+- Shareholders: financial performance, regulatory compliance, reputational integrity.
+
+4.3 Scope of the QMS
+The scope of the QMS is: Design (where applicable), manufacture, test, and delivery of precision industrial components from our facility.
+
+4.4 QMS Processes
+The QMS comprises the following key process areas:
+- Customer-related processes (enquiry, order, delivery, complaint handling)
+- Design and development processes (where applicable)
+- Purchasing and supplier management
+- Production planning and control
+- Inspection and testing
+- Nonconformance, CAPA, and continual improvement
+- Internal audit
+- Management review
+
+
+═══════════════════════════════════════════════════════════════
+SECTION 5 — LEADERSHIP
+═══════════════════════════════════════════════════════════════
+
+5.1 Leadership and Commitment
+Top management demonstrates commitment to the QMS by:
+- Establishing and communicating the quality policy
+- Ensuring QMS objectives are set and aligned with strategic direction
+- Promoting process approach and risk-based thinking
+- Ensuring resources are available
+- Communicating the importance of meeting customer and regulatory requirements
+
+5.2 Quality Policy
+Acme Manufacturing Ltd. is committed to delivering products that consistently meet or exceed customer requirements through:
+- Adherence to all applicable statutory and regulatory requirements
+- Continual improvement of our quality management system
+- A culture where every employee takes responsibility for quality
+
+The Quality Policy is reviewed at each Management Review meeting and communicated to all employees. A copy is displayed at all production areas and available on the company intranet.
+
+5.3 Organisational Roles, Responsibilities, and Authorities
+
+Managing Director: Overall accountability for QMS effectiveness and resource provision.
+
+Quality Manager: Maintains this Quality Manual, leads internal audits, manages CAPA programme, and reports QMS performance to top management.
+
+Production Manager: Responsible for production conformance, equipment maintenance, and operator training.
+
+Procurement Manager: Responsible for approved supplier management and incoming inspection.
+
+All Employees: Responsible for following documented procedures, reporting nonconformances, and participating in continual improvement activities.
+
+
+═══════════════════════════════════════════════════════════════
+SECTION 6 — PLANNING
+═══════════════════════════════════════════════════════════════
+
+6.1 Actions to Address Risks and Opportunities
+Risk identification is conducted annually as part of the Management Review process. Risks are assessed using a likelihood/severity matrix and mitigating actions are assigned owners and target dates. Opportunities for improvement are similarly captured and prioritised.
+
+6.2 Quality Objectives
+Quality objectives are established at each Management Review. Current objectives include:
+- Customer complaint rate: < 0.5% of shipped orders
+- On-time delivery: ≥ 97%
+- Internal rejection rate: < 1.5%
+- Corrective action close-out within 30 days: ≥ 90%
+
+Progress against objectives is reviewed monthly by the Quality Manager and reported quarterly to management.
+
+6.3 Planning Changes
+All changes to the QMS — including process changes, document revisions, and organisational restructuring — are planned using the Change Management procedure (QP-020). Changes are assessed for risk prior to implementation.
+
+
+═══════════════════════════════════════════════════════════════
+SECTION 7 — SUPPORT
+═══════════════════════════════════════════════════════════════
+
+7.1 Resources
+The organisation determines and provides the human resources, infrastructure, and work environment necessary to implement and maintain the QMS.
+
+7.2 Competence
+All personnel performing quality-affecting work are required to be competent based on appropriate education, training, or experience. Training needs are assessed annually and documented on individual Training Records (Form QF-012).
+
+7.3 Awareness
+All employees are made aware of:
+- The quality policy
+- Relevant quality objectives
+- Their contribution to QMS effectiveness
+- The implications of not conforming to requirements
+
+7.4 Communication
+Internal communication regarding quality matters is managed through:
+- Team briefings (monthly, department level)
+- Quality notice boards at each production area
+- Email and intranet for document updates
+- Management Review outputs circulated to all managers
+
+7.5 Documented Information
+The QMS is documented and maintained using a three-tier structure:
+- Tier 1: Quality Manual (this document)
+- Tier 2: Quality Procedures (QP series)
+- Tier 3: Work Instructions, Forms, and Records
+
+Document control is managed in accordance with QP-001 Document Control Procedure. All documents are version-controlled and reviewed at a minimum of every two years.
+
+
+═══════════════════════════════════════════════════════════════
+SECTION 8 — OPERATION
+═══════════════════════════════════════════════════════════════
+
+8.1 Operational Planning and Control
+Acme plans, implements, and controls the processes required to produce conforming products. This includes:
+- Defining product/service requirements
+- Setting acceptance criteria
+- Maintaining documented information to the extent necessary to demonstrate conformance
+
+8.2 Customer Requirements
+Customer requirements are reviewed before acceptance of any order to ensure they are understood and that Acme has the capability to meet them. The process is documented in QP-005 Customer Order Review Procedure.
+
+8.4 Control of Externally Provided Processes, Products and Services
+Suppliers are evaluated and approved before use. The Approved Supplier List (ASL) is maintained by the Procurement Manager. Supplier performance is reviewed annually against criteria including quality, delivery, and responsiveness. The process is documented in QP-008 Supplier Management Procedure.
+
+8.5 Production and Service Provision
+Production activities are carried out under controlled conditions including:
+- Availability of documented work instructions at the point of use
+- Use of suitable, maintained equipment (calibration records maintained in QP-010)
+- Implementation of monitoring and measurement activities
+- Identification and traceability of product throughout production
+
+8.6 Release of Products and Services
+Products are not released until all planned inspection activities are satisfactorily completed. Release records are maintained in accordance with QP-011 Final Inspection Procedure.
+
+8.7 Control of Nonconforming Outputs
+Nonconforming products are identified, segregated, and dispositioned in accordance with QP-013 Nonconformance Control Procedure. Dispositions include: rework, repair, concession, return to supplier, or scrap. All nonconformances are recorded and analysed for trends.
+
+
+═══════════════════════════════════════════════════════════════
+SECTION 9 — PERFORMANCE EVALUATION
+═══════════════════════════════════════════════════════════════
+
+9.1 Monitoring, Measurement, Analysis, and Evaluation
+The following key performance indicators are monitored monthly:
+- Customer satisfaction (complaints, survey scores, repeat orders)
+- Product quality (rejection rates, rework rates)
+- Supplier performance (on-time delivery, PPM rates)
+- Internal audit findings
+
+9.2 Internal Audit
+Internal audits are conducted at planned intervals in accordance with QP-016 Internal Audit Procedure. The audit programme covers all QMS processes at least once per year. Audit findings are reported to top management and corrective actions are tracked to closure.
+
+9.3 Management Review
+Top management reviews the QMS at least annually. Inputs include audit results, customer feedback, process performance, nonconformances, corrective actions, and risks/opportunities. Outputs include decisions on improvement actions, resource requirements, and changes to the QMS.
+
+
+═══════════════════════════════════════════════════════════════
+SECTION 10 — IMPROVEMENT
+═══════════════════════════════════════════════════════════════
+
+10.1 Continual Improvement
+Acme is committed to continually improving the suitability, adequacy, and effectiveness of the QMS. Improvement opportunities are identified through:
+- Analysis of quality objectives
+- Internal audit findings
+- Customer feedback and complaints
+- Management review outputs
+- Employee suggestions
+
+10.2 Nonconformance and Corrective Action
+When a nonconformance occurs, Acme:
+1. Reacts to the nonconformance and takes action to control and correct it
+2. Evaluates the need for corrective action to eliminate root cause
+3. Implements necessary corrective actions
+4. Reviews the effectiveness of corrective actions taken
+
+The corrective action process is detailed in QP-014 Corrective and Preventive Action (CAPA) Procedure.
+
+
+═══════════════════════════════════════════════════════════════
+DOCUMENT CONTROL
+═══════════════════════════════════════════════════════════════
+
+Revision History:
+Rev 1 — January 2022 — Initial release
+Rev 2 — June 2023 — Added Section 6.3 Change Management
+Rev 3 — March 2025 — Updated quality objectives; revised scope statement
+
+Next Scheduled Review: March 2027
+
+This document is uncontrolled when printed. Refer to the document management system for the current controlled version.

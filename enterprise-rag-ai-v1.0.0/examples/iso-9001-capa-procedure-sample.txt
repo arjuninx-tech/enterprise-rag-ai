@@ -1,0 +1,285 @@
+CORRECTIVE AND PREVENTIVE ACTION (CAPA) PROCEDURE
+Acme Manufacturing Ltd.
+Document Number: QP-014
+Revision: 5
+Effective Date: 15 January 2025
+Standard: ISO 9001:2015 — Clause 10.2
+Status: Approved
+Approved by: Quality Manager
+
+
+═══════════════════════════════════════════════════════════════
+1. PURPOSE
+═══════════════════════════════════════════════════════════════
+
+This procedure defines the process for identifying, investigating, implementing, and verifying corrective actions to eliminate the root causes of nonconformances and prevent their recurrence. It also covers preventive actions to eliminate the causes of potential nonconformances.
+
+The CAPA process supports continual improvement of the Quality Management System (QMS) and compliance with ISO 9001:2015 Clause 10.2.
+
+
+═══════════════════════════════════════════════════════════════
+2. SCOPE
+═══════════════════════════════════════════════════════════════
+
+This procedure applies to all nonconformances and potential nonconformances identified within the scope of the QMS, including:
+- Customer complaints
+- Internal nonconformances identified during production or inspection
+- Nonconforming supplier products or services
+- Internal audit findings
+- Management review outputs
+- Employee-reported quality issues
+
+
+═══════════════════════════════════════════════════════════════
+3. REFERENCES
+═══════════════════════════════════════════════════════════════
+
+- ISO 9001:2015 Clause 10.2 — Nonconformity and corrective action
+- QM-001 Quality Manual
+- QP-013 Nonconformance Control Procedure
+- QP-016 Internal Audit Procedure
+- Form QF-014 CAPA Request Form
+- Form QF-015 CAPA Effectiveness Review Form
+
+
+═══════════════════════════════════════════════════════════════
+4. RESPONSIBILITIES
+═══════════════════════════════════════════════════════════════
+
+Quality Manager:
+- Administers the CAPA register
+- Assigns CAPA owners and target dates
+- Reviews and approves completed CAPAs
+- Reports CAPA status at Management Review
+
+CAPA Owner (assigned by Quality Manager):
+- Investigates root cause
+- Proposes and implements corrective/preventive actions
+- Provides evidence of completion
+- Monitors effectiveness
+
+Initiator (any employee):
+- Raises a CAPA Request Form (QF-014) for any identified nonconformance or potential issue
+- Provides accurate description of the problem
+
+All Managers:
+- Ensure their teams comply with assigned corrective actions
+- Provide resources and support for timely close-out
+
+
+═══════════════════════════════════════════════════════════════
+5. DEFINITIONS
+═══════════════════════════════════════════════════════════════
+
+Corrective Action: Action taken to eliminate the cause of a detected nonconformance or other undesirable situation to prevent recurrence.
+
+Preventive Action: Action taken to eliminate the cause of a potential nonconformance or other potential undesirable situation.
+
+Root Cause: The fundamental reason(s) for a nonconformance. Eliminating the root cause prevents recurrence; treating only symptoms does not.
+
+Immediate Containment: Short-term actions taken to protect the customer or production from the immediate impact of a nonconformance (e.g., quarantine, rework, inspection hold).
+
+Effectiveness Review: An assessment carried out after the corrective action has been implemented to confirm it has resolved the root cause and the nonconformance has not recurred.
+
+CAPA Register: A controlled log of all open and closed CAPAs maintained by the Quality Manager.
+
+
+═══════════════════════════════════════════════════════════════
+6. PROCEDURE
+═══════════════════════════════════════════════════════════════
+
+6.1 Identification and Initiation
+
+A CAPA may be initiated from any of the following sources:
+- Customer complaint received via sales or service team
+- Nonconformance report raised during production inspection
+- Audit finding (internal or third-party)
+- Supplier quality deviation report
+- Management review output
+- Employee observation or near-miss
+
+Any employee may initiate a CAPA by completing Form QF-014 CAPA Request Form and submitting it to the Quality Manager. The form must include:
+- Description of the nonconformance or potential issue
+- Date of occurrence / detection
+- Product, process, or area affected
+- Any immediate containment actions already taken
+- Name and contact of initiator
+
+The Quality Manager assigns a unique CAPA number, logs the CAPA in the register, and assigns an owner and target close-out date within 2 working days of receipt.
+
+CAPA Priority Classification:
+- Critical: Customer-affecting, regulatory breach, or safety issue — target close-out within 14 days
+- Major: Significant process failure or recurring issue — target close-out within 21 days
+- Minor: Isolated low-impact issue — target close-out within 30 days
+
+6.2 Immediate Containment
+
+The CAPA owner must confirm that immediate containment actions have been taken before proceeding to root cause analysis. Containment actions are documented on Form QF-014 and may include:
+- Quarantine of suspect product
+- Recall of shipped product (if customer-affecting)
+- Process hold pending investigation
+- 100% inspection of production run
+- Communication to affected parties
+
+Containment does not replace root cause analysis — it prevents further impact while the investigation proceeds.
+
+6.3 Root Cause Analysis
+
+The CAPA owner is responsible for conducting a structured root cause analysis. Acceptable methods include:
+
+5 Whys Analysis: Iteratively ask "Why?" until the fundamental cause is identified. Suitable for simpler, well-understood problems.
+
+Fishbone (Ishikawa) Diagram: Map potential causes across the categories of Man, Machine, Method, Material, Measurement, and Environment. Suitable for complex or multi-factor problems.
+
+Fault Tree Analysis: Top-down logical diagram used for safety-critical or high-complexity issues.
+
+The selected method and findings must be documented on Form QF-014. The root cause must be specific, verifiable, and linked directly to the nonconformance. Statements such as "human error" or "operator mistake" are not acceptable root causes — the underlying systemic reason must be identified (e.g., "procedure was unclear," "training was not completed," "no verification step existed").
+
+6.4 Corrective / Preventive Action Planning
+
+Based on the root cause findings, the CAPA owner proposes actions to:
+- Eliminate the root cause (corrective action)
+- Prevent the occurrence of similar issues in other areas (preventive action, where applicable)
+
+Actions must be:
+- Specific — clearly defined with measurable outcomes
+- Assigned — with a named responsible person
+- Time-bound — with a realistic target completion date
+
+Proposed actions are reviewed and approved by the Quality Manager before implementation. If proposed actions require significant resource or process changes, approval from the relevant department manager is also required.
+
+Examples of corrective actions:
+- Revise and reissue work instruction to clarify inspection step
+- Implement production hold-point requiring supervisor sign-off
+- Conduct targeted training and assess competency
+- Update incoming inspection criteria for affected component
+- Request supplier to implement process controls and submit 8D report
+
+6.5 Implementation
+
+The CAPA owner implements the approved actions by the agreed target date. Evidence of implementation must be collected and attached to Form QF-014. Evidence may include:
+- Revised documented procedures or work instructions (with revision control evidence)
+- Training records showing employees have received updated training
+- Updated control plans or inspection records
+- Supplier corrective action response (8D or equivalent)
+- Process capability data (Cpk) showing process improvement
+
+The Quality Manager updates the CAPA register with the implementation date when evidence has been reviewed and accepted.
+
+6.6 Effectiveness Review
+
+An effectiveness review must be conducted to confirm the corrective action has worked and the nonconformance has not recurred. The review is conducted by the CAPA owner and documented on Form QF-015 CAPA Effectiveness Review Form.
+
+Timing of effectiveness review:
+- Critical CAPAs: 30 days after implementation
+- Major CAPAs: 45 days after implementation
+- Minor CAPAs: 60 days after implementation
+
+The effectiveness review must include:
+- Confirmation that the root cause has been addressed
+- Evidence that the nonconformance has not recurred (e.g., inspection data, production records)
+- Assessment of whether the action has had any unintended consequences
+
+If the effectiveness review confirms the corrective action has been effective, the Quality Manager closes the CAPA in the register.
+
+If the corrective action is found to be ineffective, the CAPA is escalated, a new root cause analysis is conducted, and revised actions are implemented. The Quality Manager notifies the relevant department manager of the re-open.
+
+6.7 Closure
+
+The Quality Manager formally closes the CAPA when:
+1. All planned actions have been implemented
+2. Evidence of implementation has been verified
+3. Effectiveness review confirms the root cause has been eliminated
+4. No recurrence has been observed within the review period
+
+Closed CAPAs remain in the register for a minimum of 3 years for audit and trend analysis purposes.
+
+
+═══════════════════════════════════════════════════════════════
+7. CAPA REGISTER AND REPORTING
+═══════════════════════════════════════════════════════════════
+
+The Quality Manager maintains the CAPA Register in the document management system. The register contains:
+- CAPA number and date raised
+- Source (complaint, audit, production, etc.)
+- Description of nonconformance
+- Priority classification
+- CAPA owner
+- Root cause summary
+- Actions planned and implemented
+- Target and actual close-out dates
+- Effectiveness review outcome
+- Status (Open / Implementation in Progress / Pending Effectiveness Review / Closed)
+
+The CAPA register status is reported monthly to department managers and quarterly to the Management Review meeting. Trend analysis is performed to identify recurring root causes, systemic issues, or patterns across departments or product lines.
+
+Metrics reported include:
+- Number of CAPAs raised (by source and department)
+- On-time close-out rate (target: ≥ 90% within agreed timescale)
+- Recurrence rate (target: < 5%)
+- Average days to close-out
+
+
+═══════════════════════════════════════════════════════════════
+8. TRAINING
+═══════════════════════════════════════════════════════════════
+
+All employees with CAPA responsibilities (initiators, owners, managers) must complete training on this procedure before initiating or owning a CAPA. Training is recorded on Form QF-012 Training Record. Refresher training is required whenever this procedure is significantly revised.
+
+
+═══════════════════════════════════════════════════════════════
+9. RECORDS
+═══════════════════════════════════════════════════════════════
+
+The following records are generated and retained in accordance with QP-001 Document Control Procedure:
+
+| Form | Title | Retention Period |
+|---|---|---|
+| QF-014 | CAPA Request Form | 3 years minimum |
+| QF-015 | CAPA Effectiveness Review Form | 3 years minimum |
+| CAPA Register | Master log | Indefinite |
+
+
+═══════════════════════════════════════════════════════════════
+10. WORKED EXAMPLE — 5 WHYS
+═══════════════════════════════════════════════════════════════
+
+Nonconformance: Customer complaint — 12 units shipped with incorrect part number labels.
+
+Why 1: Why were incorrect labels applied?
+— The operator used the label stock from the previous production run.
+
+Why 2: Why was previous run label stock still accessible?
+— Remaining labels were not removed from the workstation at end of the previous run.
+
+Why 3: Why are remaining labels not removed at end of each run?
+— The work instruction does not include a step for label clearance at changeover.
+
+Why 4: Why does the work instruction omit this step?
+— The work instruction was written before the label clearance step was identified as a risk.
+
+Why 5: Why was this risk not identified during work instruction review?
+— No formal risk assessment is conducted when work instructions are created or revised.
+
+Root Cause: Work instructions are created without a risk assessment step, allowing critical error-prevention steps to be omitted.
+
+Corrective Action:
+1. Revise WI-041 to include a mandatory label clearance step at production changeover.
+2. Implement a risk assessment checklist (Form QF-022) for all new and revised work instructions.
+3. Conduct one-off review of all production work instructions using the new checklist.
+
+
+═══════════════════════════════════════════════════════════════
+DOCUMENT CONTROL
+═══════════════════════════════════════════════════════════════
+
+Revision History:
+Rev 1 — March 2019 — Initial release
+Rev 2 — July 2020 — Added priority classification system
+Rev 3 — February 2022 — Added preventive action scope; updated definitions
+Rev 4 — September 2023 — Added effectiveness review timescales; added metrics section
+Rev 5 — January 2025 — Added worked example; updated Forms reference
+
+Next Scheduled Review: January 2027
+
+This document is uncontrolled when printed. Refer to the document management system for the current controlled version.

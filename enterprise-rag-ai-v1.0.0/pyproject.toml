@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "onprem-rag-assistant"
+version = "1.0.0"
+description = "Self-hosted document assistant with local LLM inference and cited RAG"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+keywords = ["rag", "ollama", "local-llm", "document-ai", "privacy"]
+dependencies = [
+    "pywebview>=4.4.1,<7",
+    "ollama>=0.4,<1",
+    "chromadb>=0.5,<2",
+    "pdfplumber>=0.10,<1",
+    "pypdf>=3.17,<7",
+    "python-docx>=1.1,<2",
+    "python-dotenv>=1.0,<2",
+    "flask>=3.0,<4",
+]
+
+[project.urls]
+Repository = "https://github.com/arjuninx-tech/enterprise-rag-ai"
+Issues = "https://github.com/arjuninx-tech/enterprise-rag-ai/issues"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8,<9",
+    "ruff>=0.9,<1",
+]
+
+[project.scripts]
+onprem-rag     = "onprem_rag.desktop:main"
+onprem-rag-web = "onprem_rag.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+onprem_rag = ["ui/*.html", "ui/*.svg", "ui/*.ico"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
