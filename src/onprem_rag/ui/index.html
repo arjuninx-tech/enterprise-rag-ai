@@ -1384,12 +1384,25 @@ $('confirm-overlay').addEventListener('click', event => {
 // ── Markdown renderer ──────────────────────────────────────────
 function renderMd(text) {
   if (!text) return '';
-  let t = text
-    // Code blocks
-    .replace(/```(\w*)\n?([\s\S]*?)```/g, (_, lang, code) =>
-      `<pre><code class="lang-${lang}">${esc(code.trim())}</code></pre>`)
-    // Inline code
-    .replace(/`([^`\n]+)`/g, (_, c) => `<code>${esc(c)}</code>`)
+
+  // Model responses and retrieved document content are untrusted. Preserve
+  // code as escaped placeholders, then escape everything else before adding
+  // the small set of markup elements supported by this renderer.
+  const codeBlocks = [];
+  const inlineCode = [];
+  let t = String(text)
+    .replace(/```(\w*)\n?([\s\S]*?)```/g, (_, lang, code) => {
+      const index = codeBlocks.push(
+        `<pre><code class="lang-${lang}">${esc(code.trim())}</code></pre>`
+      ) - 1;
+      return `\u0000FENCEDCODE${index}\u0000`;
+    })
+    .replace(/`([^`\n]+)`/g, (_, code) => {
+      const index = inlineCode.push(`<code>${esc(code)}</code>`) - 1;
+      return `\u0000INLINECODE${index}\u0000`;
+    });
+
+  t = esc(t)
     // Bold
     .replace(/\*\*([^*\n]+)\*\*/g, '<strong>$1</strong>')
     .replace(/__([^_\n]+)__/g, '<strong>$1</strong>')
@@ -1416,6 +1429,8 @@ function renderMd(text) {
   // Wrap li in ul if not already
   t = t.replace(/(<li>[\s\S]*?<\/li>)+/g, m => `<ul>${m}</ul>`);
   t = `<p>${t}</p>`;
+  t = t.replace(/\u0000FENCEDCODE(\d+)\u0000/g, (_, index) => codeBlocks[Number(index)]);
+  t = t.replace(/\u0000INLINECODE(\d+)\u0000/g, (_, index) => inlineCode[Number(index)]);
   // Clean up empty p tags
   t = t.replace(/<p>\s*<\/p>/g, '');
   t = t.replace(/<p>(<h[123]>)/g, '$1').replace(/(<\/h[123]>)<\/p>/g, '$1');
@@ -1425,8 +1440,13 @@ function renderMd(text) {
   t = t.replace(/<p>(<blockquote>)/g, '$1').replace(/(<\/blockquote>)<\/p>/g, '$1');
   return t;
 }
-function esc(s) {
-  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+function esc(value) {
+  return String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
 }
 
 // ── Theme ──────────────────────────────────────────────────────

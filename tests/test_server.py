@@ -44,6 +44,26 @@ class ServerBoundaryTests(TestCase):
             icon_response.close()
             favicon_response.close()
 
+    def test_markdown_renderer_escapes_untrusted_model_output(self):
+        response = self.client.get("/")
+        try:
+            html = response.get_data(as_text=True)
+            renderer = html.split("function renderMd(text)", 1)[1].split(
+                "// \u2500\u2500 Theme", 1
+            )[0]
+
+            self.assertIn("let t = String(text)", renderer)
+            self.assertIn("t = esc(t)", renderer)
+            self.assertLess(
+                renderer.index("t = esc(t)"),
+                renderer.index(".replace(/\\*\\*"),
+            )
+            self.assertIn(".replace(/</g, '&lt;')", renderer)
+            self.assertIn(".replace(/\"/g, '&quot;')", renderer)
+            self.assertIn(".replace(/'/g, '&#039;')", renderer)
+        finally:
+            response.close()
+
     def test_stale_sse_cleanup_preserves_reconnected_client(self):
         client_id = str(uuid4())
         stale_queue = queue.Queue()
