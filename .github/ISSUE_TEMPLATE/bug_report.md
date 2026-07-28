@@ -4,6 +4,7 @@ about: Something isn't working as expected
 title: "[BUG] "
 labels: bug
 assignees: ''
+
 ---
 
 ## What happened?
